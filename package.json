@@ -1,0 +1,35 @@
+{
+    "name": "bia",
+    "displayName": "Bia",
+    "description": "Syntax highlighting for the Bia scripting language.",
+    "version": "0.0.1",
+    "publisher": "Bialang",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "bia",
+                "aliases": [
+                    "Bia",
+                    "bia"
+                ],
+                "extensions": [
+                    ".bia"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "bia",
+                "scopeName": "source.bia",
+                "path": "./syntaxes/bia.tmGrammar.xml"
+            }
+        ]
+    }
+}
