@@ -4,6 +4,9 @@
     "description": "Syntax highlighting for the Bia scripting language.",
     "version": "0.0.1",
     "publisher": "Bialang",
+    "repository": {
+        "url": "https://github.com/bialang/bia-vscode.git"
+    },
     "engines": {
         "vscode": "^1.47.0"
     },

@@ -179,6 +179,12 @@
         </dict>
         <dict>
           <key>match</key>
+          <string>(list|range)</string>
+          <key>name</key>
+          <string>support.function.bia</string>
+        </dict>
+        <dict>
+          <key>match</key>
           <string>(\b[a-z_][a-z0-9_]*)</string>
           <key>name</key>
           <string>variable.bia</string>
