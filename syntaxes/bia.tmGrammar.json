@@ -14,12 +14,28 @@
 			"end": "\\*/"
 		},
 		{
-			"name": "keyword",
-			"match": "import|let|fun|return|if|else|while|for|continue|break"
+			"name": "storage.type",
+			"match": "let"
 		},
 		{
-			"name": "keyword.letter",
-			"match": "not|and|or|in|[-+*/%|&^~]"
+			"name": "storage.modifier",
+			"match": "mut"
+		},
+		{
+			"name": "entity.name.type",
+			"match": "u?int(8|16|32|64)?|float(32|64)|bool|string|[A-Z][a-zA-Z0-9]*"
+		},
+		{
+			"name": "keyword",
+			"match": "not|and|or|in|as"
+		},
+		{
+			"name": "keyword.operator",
+			"match": "[-+*/%|&^~]"
+		},
+		{
+			"name": "keyword.control",
+			"match": "if|else"
 		},
 		{
 			"name": "constant.language",
