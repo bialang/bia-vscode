@@ -15,19 +15,19 @@
 		},
 		{
 			"name": "storage.type",
-			"match": "let"
+			"match": "\\b(let)\\b"
 		},
 		{
 			"name": "storage.modifier",
-			"match": "mut"
+			"match": "\\b(mut)\\b"
 		},
 		{
 			"name": "entity.name.type",
-			"match": "u?int(8|16|32|64)?|float(32|64)|bool|string|[A-Z][a-zA-Z0-9]*"
+			"match": "\\b(u?int(8|16|32|64)?|float(32|64)|bool|string|[A-Z][a-zA-Z0-9]*)\\b"
 		},
 		{
 			"name": "keyword",
-			"match": "not|and|or|in|as"
+			"match": "\\b(not|and|or|in|as|scope)\\b"
 		},
 		{
 			"name": "keyword.operator",
@@ -35,15 +35,15 @@
 		},
 		{
 			"name": "keyword.control",
-			"match": "if|else"
+			"match": "\\b(if|else|while)\\b"
 		},
 		{
 			"name": "constant.language",
-			"match": "true|false"
+			"match": "\\b(true|false|infinity|nan)\\b"
 		},
 		{
 			"name": "constant.numeric",
-			"match": "0([xX][0-9a-fA-F]+|[bB][01]+|[0-7]+)|(0|[1-9]\\d*)\\.\\d*|0|[1-9]\\d*"
+			"match": "\\b(0([xX][0-9a-fA-F]+|[bB][01]+|[0-7]+)|(0|[1-9]\\d*)\\.\\d*|0|[1-9]\\d*)([ui](8|16|32|64)?)?\\b"
 		},
 		{
 			"name": "string.quoted.double",
