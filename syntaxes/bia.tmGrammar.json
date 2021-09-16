@@ -27,7 +27,7 @@
 		},
 		{
 			"name": "keyword",
-			"match": "\\b(not|and|or|in|as|scope)\\b"
+			"match": "\\b(not|and|or|in|as|scope|drop|import)\\b"
 		},
 		{
 			"name": "keyword.operator",
